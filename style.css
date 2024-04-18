@@ -23,6 +23,7 @@
 
 .section1 {
   background-image: url("assets/adobo.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   
