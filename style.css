@@ -18,7 +18,7 @@
   font-size: 2em;
   padding-left: 20px;
   
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
   white-space: nowrap;
   scroll-snap-type: y mandatory;
@@ -49,4 +49,20 @@ p1 {
 
 p {
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #3333;
+  padding: 1px 1px;
+  font-size: 10px;
+  font-style: bold;
+  line-height: 50px;
+  opacity: 50%;
 }
