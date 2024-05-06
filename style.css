@@ -39,17 +39,27 @@
   background-color: blue;
 }
 
+section {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 200px;
+  padding: 0 20px;
+}
+
 p1 {
   font-family: 'Roboto', sans-serif;
   font-size: clamp(14px, 5vw, 19vh);
   line-height: 1.4; 
   font-weight: 500; 
-  /* Adjust the font size as needed */
 }
 
 p {
   font-family: 'Roboto', sans-serif;
 }
+
+
+
 
 footer {
   text-align: center;
